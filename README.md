@@ -1,6 +1,6 @@
 # መልክእ Memory Garden — GitHub Pages web app
 
-A free, offline-capable Progressive Web App (PWA) based on Memory Garden v4.5. No build tools, npm dependencies, database, or web server are required for hosting.
+A free, offline-capable Progressive Web App (PWA) based on Memory Garden v4.5. No buildtools, npm dependencies, database, or web server are required for hosting.
 
 ## Publish on GitHub Pages
 

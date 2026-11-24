@@ -38,3 +38,7 @@ The service worker saves the app shell for offline use after the first successfu
 - `.nojekyll` — serve files directly without a Jekyll build
 
 No external scripts, CDNs, or tracking services are included.
+
+## Ordering grid: Free Flip and Challenge
+
+Use the **MODE** dropdown on the Ordering grid to select Free Flip or Challenge. Challenge counts each box reveal, times the attempt, and saves personal best and history separately for every collection. Use **Finish & save** to log an attempt; unfinished attempts are not saved. Results are included in Complete Archive ZIP backups. After uploading a new version to GitHub Pages, refresh the site (or close and reopen the installed PWA) to get its new offline cache.

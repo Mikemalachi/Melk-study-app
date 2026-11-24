@@ -1,5 +1,5 @@
 /* Memory Garden service worker — per-repo, fully offline after the first visit. */
-const CACHE_NAME = 'melkea-memory-garden-web-1.0.0';
+const CACHE_NAME = 'melkea-memory-garden-web-1.1.0';
 const APP_FILES = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_FILES)).then(() => self.skipWaiting()));
